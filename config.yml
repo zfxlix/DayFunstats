@@ -1,0 +1,10 @@
+# DayFunStats 2.0
+# EssentialsX Economy wird über Vault bereitgestellt.
+# Für die Anzeige wird die PlaceholderAPI-Vault-Expansion benötigt.
+placeholders:
+  money: "%vault_eco_balance_formatted%"
+  rank: "%luckperms_primary_group_name%"
+  unavailable-text: "Nicht verfügbar"
+
+# Farben können mit &-Codes angepasst werden.
+# Die Juwelen-/PlayerPoints-Anzeige wurde vollständig entfernt.

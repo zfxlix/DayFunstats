@@ -1,0 +1,16 @@
+name: DayFunStats
+version: 2.0.0
+main: eu.dayfun.stats.DayFunStats
+api-version: '1.21'
+author: DayFun
+description: Hochwertiges Spielerprofil- und Statistikmenü für DayFun.
+softdepend: [PlaceholderAPI, Vault, Essentials]
+commands:
+  stats:
+    description: Öffnet dein DayFun-Spielerprofil oder zeigt das Profil eines Spielers.
+    usage: /stats [spieler] | /stats reset [spieler] | /stats reload
+    aliases: [statistik]
+permissions:
+  dayfunstats.admin:
+    description: Erlaubt das Zurücksetzen von Statistiken und das Neuladen des Plugins.
+    default: op
